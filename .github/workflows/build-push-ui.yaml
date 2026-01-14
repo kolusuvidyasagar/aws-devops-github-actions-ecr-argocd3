@@ -6,7 +6,7 @@ on:
     paths:
       - "src/ui/src/**"
       #- ".github/workflows/build-push-ui.yaml" # During testing phases only for prod comment this line
-
+       #
 permissions:
   id-token: write # Needed for OIDC
   contents: write # Needed to push commits
